@@ -122,7 +122,7 @@ public class ViewTeachers extends JFrame implements ActionListener {
                 }
                 rowList.add(row);
             }
-
+// fix convertion
             // Convert List<Object[]> to Object[][]
             data = rowList.toArray(new Object[0][]);
             rs.close();
